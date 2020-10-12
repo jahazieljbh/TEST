@@ -9,11 +9,15 @@ import { MapComponent } from './map/map.component';
 import { MarkerService } from './_services/marker.service';
 import { PopUpService } from './_services/pop-up.service';
 import { ShapeService } from './_services/shape.service';
+import { LandingPageComponent } from './landing-page/landing-page.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    MapComponent
+    MapComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
