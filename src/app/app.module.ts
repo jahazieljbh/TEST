@@ -10,6 +10,7 @@ import { MarkerService } from './_services/marker.service';
 import { PopUpService } from './_services/pop-up.service';
 import { ShapeService } from './_services/shape.service';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { LoginComponent } from './login/login.component';
 
 
 
@@ -17,7 +18,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
   declarations: [
     AppComponent,
     MapComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
